@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+}
+
+.box-red {
+    background-color: red;
+}
+
+.box-green {
+    background-color: green;
+}
+
+.box-blue {
+    background-color: blue;
+}
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+}

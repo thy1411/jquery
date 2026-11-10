@@ -1,0 +1,253 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>jQuery - More Examples of Selectors</title>
+
+    <!-- Import jQuery -->
+    <script src="../lesson-02/jquery-3.7.1.min.js"></script>
+
+    <!-- Import JavaScript riêng -->
+    <script src="more-selectors.js"></script>
+
+    <!-- Import CSS -->
+    <link rel="stylesheet" href="more-selectors.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>More Examples of jQuery Selectors</h1>
+
+        <p class="description">
+            Thực hành các selector trong tài liệu W3Schools.
+        </p>
+
+        <!-- SELECTOR BUTTONS -->
+        <section>
+
+            <h2>1. Selector Tester</h2>
+
+            <div class="selector-buttons">
+
+                <button class="selector-btn" data-selector="*">
+                    $("*")
+                </button>
+
+                <button class="selector-btn" data-selector="this">
+                    $(this)
+                </button>
+
+                <button class="selector-btn" data-selector="p.intro">
+                    $("p.intro")
+                </button>
+
+                <button class="selector-btn" data-selector="p:first">
+                    $("p:first")
+                </button>
+
+                <button class="selector-btn" data-selector="ul li:first">
+                    $("ul li:first")
+                </button>
+
+                <button class="selector-btn" data-selector="ul li:first-child">
+                    $("ul li:first-child")
+                </button>
+
+                <button class="selector-btn" data-selector="[href]">
+                    $("[href]")
+                </button>
+
+                <button class="selector-btn" data-selector="a[target='_blank']">
+                    $("a[target='_blank']")
+                </button>
+
+                <button class="selector-btn" data-selector="a[target!='_blank']">
+                    $("a[target!='_blank']")
+                </button>
+
+                <button class="selector-btn" data-selector=":button">
+                    $(":button")
+                </button>
+
+                <button class="selector-btn" data-selector="tr:even">
+                    $("tr:even")
+                </button>
+
+                <button class="selector-btn" data-selector="tr:odd">
+                    $("tr:odd")
+                </button>
+
+            </div>
+
+            <button id="resetButton" class="reset-button">
+                Reset Selection
+            </button>
+
+            <div id="result">
+                Chưa chọn selector nào.
+            </div>
+
+        </section>
+
+        <hr>
+
+        <!-- ELEMENTS FOR TESTING -->
+        <section>
+
+            <h2>2. Paragraph Elements</h2>
+
+            <p class="intro">
+                Đây là đoạn văn thứ nhất có class intro.
+            </p>
+
+            <p class="intro">
+                Đây là đoạn văn thứ hai có class intro.
+            </p>
+
+            <p>
+                Đây là đoạn văn thứ ba không có class intro.
+            </p>
+
+            <p>
+                Đây là đoạn văn thứ tư.
+            </p>
+
+        </section>
+
+        <hr>
+
+        <!-- LIST ELEMENTS -->
+        <section>
+
+            <h2>3. List Elements</h2>
+
+            <h3>Danh sách thứ nhất</h3>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+            </ul>
+
+            <h3>Danh sách thứ hai</h3>
+
+            <ul>
+                <li>Python</li>
+                <li>PHP</li>
+                <li>Java</li>
+                <li>C#</li>
+            </ul>
+
+        </section>
+
+        <hr>
+
+        <!-- ATTRIBUTE SELECTORS -->
+        <section>
+
+            <h2>4. Attribute Selectors</h2>
+
+            <p>
+                <a href="https://www.google.com" target="_blank">
+                    Google - target blank
+                </a>
+            </p>
+
+            <p>
+                <a href="https://www.w3schools.com" target="_self">
+                    W3Schools - target self
+                </a>
+            </p>
+
+            <p>
+                <a href="https://jquery.com">
+                    jQuery - no target attribute
+                </a>
+            </p>
+
+            <p>
+                Đây là đoạn văn không có href.
+            </p>
+
+        </section>
+
+        <hr>
+
+        <!-- BUTTON ELEMENTS -->
+        <section>
+
+            <h2>5. Button Selectors</h2>
+
+            <button type="button">
+                HTML Button
+            </button>
+
+            <input type="button" value="Input Button">
+
+            <input type="submit" value="Submit Button">
+
+        </section>
+
+        <hr>
+
+        <!-- TABLE ELEMENTS -->
+        <section>
+
+            <h2>6. Table Selectors</h2>
+
+            <table>
+
+                <caption>Danh sách học viên</caption>
+
+                <tr>
+                    <td>1</td>
+                    <td>Nguyễn An</td>
+                    <td>HTML</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Trần Bình</td>
+                    <td>CSS</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Lê Chi</td>
+                    <td>JavaScript</td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>Phạm Dũng</td>
+                    <td>jQuery</td>
+                </tr>
+
+                <tr>
+                    <td>5</td>
+                    <td>Hoàng Giang</td>
+                    <td>Python</td>
+                </tr>
+
+                <tr>
+                    <td>6</td>
+                    <td>Võ Hạnh</td>
+                    <td>PHP</td>
+                </tr>
+
+            </table>
+
+        </section>
+
+    </div>
+
+</body>
+
+</html>

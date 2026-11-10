@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+#box {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+}
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+}

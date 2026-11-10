@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+#box {
+    width: 250px;
+    height: 150px;
+    background-color: #98bf21;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+}

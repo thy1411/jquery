@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+#flip, #panel {
+    padding: 15px;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#flip {
+    cursor: pointer;
+}
+
+#panel {
+    display: block;
+}

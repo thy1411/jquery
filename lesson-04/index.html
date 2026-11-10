@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lesson 04 - jQuery Selectors</title>
+
+    <!-- Import jQuery -->
+    <script src="../lesson-02/jquery-3.7.1.min.js"></script>
+
+    <!-- Import JavaScript -->
+    <script src="script.js"></script>
+
+    <!-- Import CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>jQuery Selectors</h1>
+
+        <!-- ELEMENT SELECTOR -->
+        <section>
+
+            <h2>1. Element Selector</h2>
+
+            <p>Đây là đoạn văn bản thứ nhất.</p>
+
+            <p>Đây là đoạn văn bản thứ hai.</p>
+
+            <p>Đây là đoạn văn bản thứ ba.</p>
+
+            <button id="btnElement">
+                Hide All Paragraphs
+            </button>
+
+        </section>
+
+        <hr>
+
+        <!-- ID SELECTOR -->
+        <section>
+
+            <h2>2. ID Selector</h2>
+
+            <p id="test">
+                Đây là phần tử có id test.
+            </p>
+
+            <p>
+                Đây là đoạn văn bản không có id test.
+            </p>
+
+            <button id="btnId">
+                Hide Element By ID
+            </button>
+
+        </section>
+
+        <hr>
+
+        <!-- CLASS SELECTOR -->
+        <section>
+
+            <h2>3. Class Selector</h2>
+
+            <p class="test">
+                Đây là phần tử thứ nhất có class test.
+            </p>
+
+            <div class="test">
+                Đây là phần tử thứ hai có class test.
+            </div>
+
+            <p>
+                Đây là phần tử không có class test.
+            </p>
+
+            <button id="btnClass">
+                Hide Elements By Class
+            </button>
+
+        </section>
+
+    </div>
+
+</body>
+
+</html>
