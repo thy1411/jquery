@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.ancestors * {
+    display: block;
+    border: 2px solid lightgray;
+    color: lightgray;
+    padding: 10px;
+    margin: 15px;
+}
+
+span {
+    color: black;
+    border-color: blue;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+}

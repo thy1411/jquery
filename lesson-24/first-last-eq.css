@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.box {
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid gray;
+    background-color: lightgray;
+}
+
+p {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid gray;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+}

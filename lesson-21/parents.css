@@ -1,0 +1,19 @@
+body.ancestors * {
+    display: block;
+    border: 2px solid lightgray;
+    color: lightgray;
+    padding: 5px;
+    margin: 15px;
+}
+
+span {
+    color: black;
+    border-color: blue;
+}
+
+button {
+    display: inline-block;
+    color: black;
+    padding: 10px 15px;
+    cursor: pointer;
+}

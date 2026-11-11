@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery parents() Method</title>
+    <link rel="stylesheet" href="parents.css">
+</head>
+<body class="ancestors">
+
+    <h1>jQuery parents() Method</h1>
+
+    <p>body (great-great-grandparent)</p>
+
+    <div>
+        div (great-grandparent)
+
+        <ul>
+            ul (grandparent)
+
+            <li>
+                li (direct parent)
+                <span>span</span>
+            </li>
+        </ul>
+    </div>
+
+    <button id="allParents">Show All Ancestors</button>
+    <button id="filterParents">Show UL Ancestor</button>
+    <button id="multipleParents">Show LI and DIV Ancestors</button>
+
+    <script src="../lesson-02/jquery-3.7.1.min.js"></script>
+    <script src="parents.js"></script>
+</body>
+</html>
